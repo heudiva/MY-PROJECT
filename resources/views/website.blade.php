@@ -10,7 +10,8 @@
     <link rel="icon" href="./images/divalogo.png">
     <link rel="stylesheet" href="entry.4RZ6yaPD.css">
 
-    @vite(['resources/css/website.css', 'resources/js/app.js'])
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    @vite(['public/assets/css/website.css'])
 	<style>
 		.my-name{
 			aline-time: center;
