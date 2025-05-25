@@ -3,3 +3,6 @@
 @tailwind utilities;
 
 
+.hero {
+  background-image: url("/public/uploads/website/background.png");
+}
