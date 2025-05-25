@@ -9,9 +9,8 @@
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <link rel="icon" href="./images/divalogo.png">
     <link rel="stylesheet" href="entry.4RZ6yaPD.css">
-
+    <link rel="stylesheet" href="{{ asset('assets/css/website.css') }}">
     @vite(['resources/css/app.css', 'resources/js/app.js'])
-    @vite(['public/assets/css/website.css'])
 	<style>
 		.my-name{
 			aline-time: center;
