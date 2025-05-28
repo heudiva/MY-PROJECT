@@ -257,11 +257,7 @@ nav a {
   transform: translate(-50%, -50%);
   margin: 1rem;
 }
-.grid-1x5 {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 2rem;
-}
+
 .designers {
   /* display: flex; */
   /* justify-content: center; */
@@ -377,22 +373,17 @@ nav a {
   padding: 2rem;
 }
 .personal-project{
-  background-color: #5752d6;
+  
   width: 100%;
 }
-.personal-project h3{
-  text-align: center;
-  padding: 1rem;
-}
-.personal-project img{
 
-  text-align: center;
-}
 .pro-course{
+  
   padding: 1rem;
 }
 .pro-card{
-  background-color: #fff;
+
+  background-image: linear-gradient(to right, rgb(83, 80, 246), rgb(230, 98, 254));
   width: 100%;
   height: 5rem;
 
@@ -402,7 +393,6 @@ nav a {
 /* =============================================== */
 footer {
   background-color: #0f0f2d;
-  padding: 40px 2%;
 }
 
 .footer-container {
@@ -443,13 +433,4 @@ footer {
 }
 .footer-column ul a:hover {
   text-decoration: 0.5px underline;
-}
-.footer-bottom {
-  text-align: center;
-  margin-top: 20px;
-  color: #bbb;
-}
-
-.footer-bottom p {
-  margin: 0;
 }
